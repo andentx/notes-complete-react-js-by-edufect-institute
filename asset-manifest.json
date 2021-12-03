@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/notes-introduction-to-react-by-edufect-institute/static/css/main.b2bb9115.chunk.css",
-    "main.js": "/notes-introduction-to-react-by-edufect-institute/static/js/main.278da3ef.chunk.js",
-    "main.js.map": "/notes-introduction-to-react-by-edufect-institute/static/js/main.278da3ef.chunk.js.map",
+    "main.js": "/notes-introduction-to-react-by-edufect-institute/static/js/main.93df0d71.chunk.js",
+    "main.js.map": "/notes-introduction-to-react-by-edufect-institute/static/js/main.93df0d71.chunk.js.map",
     "runtime-main.js": "/notes-introduction-to-react-by-edufect-institute/static/js/runtime-main.c6887d25.js",
     "runtime-main.js.map": "/notes-introduction-to-react-by-edufect-institute/static/js/runtime-main.c6887d25.js.map",
     "static/js/2.ad07afad.chunk.js": "/notes-introduction-to-react-by-edufect-institute/static/js/2.ad07afad.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.c6887d25.js",
     "static/js/2.ad07afad.chunk.js",
     "static/css/main.b2bb9115.chunk.css",
-    "static/js/main.278da3ef.chunk.js"
+    "static/js/main.93df0d71.chunk.js"
   ]
 }
