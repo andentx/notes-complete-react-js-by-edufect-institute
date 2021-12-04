@@ -8,9 +8,17 @@ These my notes on the fundamentals of React. They are part of the [Introduction 
 
 <br>
 
+## Table of Contents
+
+-   [Lesson #1 - Introduction to React JS](#lesson1)
+
+-   [Lesson #2 - React Components and JSX](#lesson2)
+
+<br>
+
 ---
 
-## Lesson #1 - Introduction to React JS
+## <a name="lesson1"></a>Lesson #1 - Introduction to React JS
 
 [Video Tutorial](https://www.youtube.com/watch?v=fTvOQuRNonE) by [Edufect Institute](https://www.youtube.com/channel/UCjg02xP_7LsgEQrcOOwKtrg)
 
@@ -60,7 +68,7 @@ These my notes on the fundamentals of React. They are part of the [Introduction 
 <br>
 <br>
 
-## Lesson #2 - React Components and JSX
+## <a name="lesson2"></a> Lesson #2 - React Components and JSX
 
 [Video Tutorial](https://www.youtube.com/watch?v=QLpkmjOcjOo) by [Edufect Institute](https://www.youtube.com/channel/UCjg02xP_7LsgEQrcOOwKtrg)
 
