@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/notes-introduction-to-react-by-edufect-institute/static/css/main.2994e8a8.chunk.css",
-    "main.js": "/notes-introduction-to-react-by-edufect-institute/static/js/main.29fef6e1.chunk.js",
-    "main.js.map": "/notes-introduction-to-react-by-edufect-institute/static/js/main.29fef6e1.chunk.js.map",
+    "main.js": "/notes-introduction-to-react-by-edufect-institute/static/js/main.d15ffdcc.chunk.js",
+    "main.js.map": "/notes-introduction-to-react-by-edufect-institute/static/js/main.d15ffdcc.chunk.js.map",
     "runtime-main.js": "/notes-introduction-to-react-by-edufect-institute/static/js/runtime-main.c6887d25.js",
     "runtime-main.js.map": "/notes-introduction-to-react-by-edufect-institute/static/js/runtime-main.c6887d25.js.map",
-    "static/js/2.ad07afad.chunk.js": "/notes-introduction-to-react-by-edufect-institute/static/js/2.ad07afad.chunk.js",
-    "static/js/2.ad07afad.chunk.js.map": "/notes-introduction-to-react-by-edufect-institute/static/js/2.ad07afad.chunk.js.map",
+    "static/js/2.83f85f50.chunk.js": "/notes-introduction-to-react-by-edufect-institute/static/js/2.83f85f50.chunk.js",
+    "static/js/2.83f85f50.chunk.js.map": "/notes-introduction-to-react-by-edufect-institute/static/js/2.83f85f50.chunk.js.map",
     "index.html": "/notes-introduction-to-react-by-edufect-institute/index.html",
     "static/css/main.2994e8a8.chunk.css.map": "/notes-introduction-to-react-by-edufect-institute/static/css/main.2994e8a8.chunk.css.map",
-    "static/js/2.ad07afad.chunk.js.LICENSE.txt": "/notes-introduction-to-react-by-edufect-institute/static/js/2.ad07afad.chunk.js.LICENSE.txt"
+    "static/js/2.83f85f50.chunk.js.LICENSE.txt": "/notes-introduction-to-react-by-edufect-institute/static/js/2.83f85f50.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c6887d25.js",
-    "static/js/2.ad07afad.chunk.js",
+    "static/js/2.83f85f50.chunk.js",
     "static/css/main.2994e8a8.chunk.css",
-    "static/js/main.29fef6e1.chunk.js"
+    "static/js/main.d15ffdcc.chunk.js"
   ]
 }
