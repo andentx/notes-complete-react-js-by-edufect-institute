@@ -232,24 +232,28 @@ These my notes on the fundamentals of React. They are part of the [Introduction 
 
             class ListOfStrings extends Component {
                 state = {
-                    s1: "React",
-                    s2: "JavaScript",
-                    s3: "Node.js",
+                    string1: "React",
+                    string2: "JavaScript",
+                    string3: "Node.js",
                 };
 
                 showStrings = () => {
-                    let { s1, s2, s3 } = this.state;
+                    let { string1, string2, string3 } = this.state;
                     return (
-                        <React.Fragment>
-                            <p>{s1}</p>
-                            <p>{s2}</p>
-                            <p>{s3}</p>
-                        </React.Fragment>
+                        <>
+                            <p>{string1}</p>
+                            <p>{string2}</p>
+                            <p>{string3}</p>
+                        <>
                     );
                 };
 
                 render() {
-                    return <React.Fragment>{this.showStrings()}</React.Fragment>;
+                    return (
+                        <>
+                            {this.showStrings()}
+                        </>
+                    );
                 }
 
             }
