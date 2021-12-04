@@ -10,19 +10,43 @@ import { exampleList } from "./ExampleList.module.css";
 export default function ExampleList() {
     return (
         <div className={exampleList}>
-            <ExampleContainer exampleTitle={"2.01 - Hello World"}>
+            <ExampleContainer
+                exampleID={"201"}
+                exampleTitle={"2.01 - Hello World"}
+                exampleLink={
+                    "https://github.com/andentx/notes-introduction-to-react-by-edufect-institute#example-201"
+                }
+            >
                 <Example201 />
             </ExampleContainer>
 
-            <ExampleContainer exampleTitle={"2.02 - React Definition"}>
+            <ExampleContainer
+                exampleID={"202"}
+                exampleTitle={"2.02 - React Definition"}
+                exampleLink={
+                    "https://github.com/andentx/notes-introduction-to-react-by-edufect-institute#example-202"
+                }
+            >
                 <Example202 />
             </ExampleContainer>
 
-            <ExampleContainer exampleTitle={"2.03 - List of Strings"}>
+            <ExampleContainer
+                exampleID={"203"}
+                exampleTitle={"2.03 - List of Strings"}
+                exampleLink={
+                    "https://github.com/andentx/notes-introduction-to-react-by-edufect-institute#example-203"
+                }
+            >
                 <Example203 />
             </ExampleContainer>
 
-            <ExampleContainer exampleTitle={"2.04 - Number Information"}>
+            <ExampleContainer
+                exampleID={"204"}
+                exampleTitle={"2.04 - Number Information"}
+                exampleLink={
+                    "https://github.com/andentx/notes-introduction-to-react-by-edufect-institute#example-204"
+                }
+            >
                 <Example204 />
             </ExampleContainer>
         </div>

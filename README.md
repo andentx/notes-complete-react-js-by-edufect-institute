@@ -186,6 +186,8 @@ These my notes on the fundamentals of React. They are part of the [Introduction 
 
              export default HelloWorld;
 
+        [view example](http://localhost:3000/notes-introduction-to-react-by-edufect-institute#201)
+
 <br>
 
 -   ### Example 2.02
@@ -213,6 +215,8 @@ These my notes on the fundamentals of React. They are part of the [Introduction 
               }
 
               export default ReactDefinition;
+
+        [view example](https://andentx.github.io/notes-introduction-to-react-by-edufect-institute#202)
 
 <br>
 
@@ -251,6 +255,8 @@ These my notes on the fundamentals of React. They are part of the [Introduction 
             }
 
             export default ListOfStrings;
+
+        [view example](https://andentx.github.io/notes-introduction-to-react-by-edufect-institute#203)
 
 <br>
 
@@ -294,5 +300,7 @@ These my notes on the fundamentals of React. They are part of the [Introduction 
               }
 
               export default NumberInformation;
+
+        [view example](https://andentx.github.io/notes-introduction-to-react-by-edufect-institute#204)
 
 <br>
