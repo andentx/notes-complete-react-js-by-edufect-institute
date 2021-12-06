@@ -7,8 +7,20 @@
 ## Table of Contents
 
 -   [Definitions](#definitions)
+    -   [Components](#components)
+    -   [React State](#reactstate)
+    -   [JSX](#jsx)
+    -   [React.Fragment](#reactfragment)
+    -   [JSX Expressions](jsxexpressions)
 -   [Creating a Class Component](#creatingclasscomponent)
--   [Practice Examples](#practiceexmaples)
+    -   [Create a Component](#createacomponent)
+    -   [Complete Component Example](#completecomponentexample)
+    -   [Add Component to page](#addcomponenttopage)
+-   [Practice Examples](#practiceexamples)
+    -   [Example 201](#example201)
+    -   [Example 202](#example202)
+    -   [Example 203](#example203)
+    -   [Example 204](#example204)
 
 <br>
 
@@ -16,14 +28,14 @@
 
 ## <a name="definitions"></a> **Definitions**
 
--   ### Components
+-   ### <a name="components"></a> Components
 
     -   Modular and reusable pieces of code
     -   Components are objects with a render() method that renders React elements into the DOM
 
     <br>
 
--   ### React State
+-   ### <a name="reactstate"></a> React State
 
     -   Components have a built-in state object
     -   State object is used to store property values that belong to the Component
@@ -31,21 +43,21 @@
 
     <br>
 
--   ### JSX
+-   ### <a name="jsx"></a> JSX
 
     -   JSX is a JavaScript syntax extension that allows for HTML-like syntax to be added to JavaScript
     -   React elements are made of JSX
 
     <br>
 
--   ### React.Fragment
+-   ### <a name="reactfragment"></a> React.Fragment
 
     -   A place holder container or parent element
     -   Contains multiple elements without adding extra nodes to the DOM
 
     <br>
 
--   ### JSX Expressions
+-   ### <a name="jsxexpressions"></a> JSX Expressions
 
     -   Added with `{ }` curly braces in JSX
     -   Contains JavaScript
@@ -55,7 +67,7 @@
 
 ## <a name="creatingclasscomponent"></a> **Creating a Class Component**
 
--   ### Create a Component
+-   ### <a name="createacomponent"></a> Create a Component
 
     -   Create new file
         -   `.jsx` in `src/components/`
@@ -72,7 +84,7 @@
 
 <br>
 
--   ### Complete Component Example
+-   ### <a name="completecomponentexample"></a> Complete Component Example
 
         // NewComponent.jsx
 
@@ -94,7 +106,7 @@
 
 <br>
 
--   ### Add Component to page
+-   ### <a name="addcomponenttopage"></a> Add Component to page
 
     -   Import Component
         -   `import NewComponent from './components/NewComponent';`
@@ -104,7 +116,7 @@
 <br>
 <br>
 
-## <a name="practiceexmaples"></a> **Practice Examples**
+## <a name="practiceexamples"></a> **Practice Examples**
 
 <br>
 
