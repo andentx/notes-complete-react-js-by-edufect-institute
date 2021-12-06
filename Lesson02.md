@@ -108,7 +108,7 @@
 
 <br>
 
--   ### Example 2.01
+-   ### <a name="example201"></a> Example 2.01
 
     -   Component that renders Hello World
 
@@ -130,7 +130,7 @@
 
 <br>
 
--   ### Example 2.02
+-   ### <a name="example202"></a> Example 2.02
 
     -   Component that renders React definition
     -   Multiple elements contained in a React Fragment
@@ -160,7 +160,7 @@
 
 <br>
 
--   ### Example 2.03
+-   ### <a name="example203"></a> Example 2.03
 
     -   Component that renders strings
     -   Strings contained in state
@@ -204,7 +204,7 @@
 
 <br>
 
--   ### Example 2.04
+-   ### <a name="example204"></a> Example 2.04
 
     -   Component that renders information about numbers
     -   Numbers contained in state
