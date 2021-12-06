@@ -6,8 +6,8 @@ These my notes on the fundamentals of React. They are part of the [Introduction 
 
 ## Table of Contents
 
--   [Lesson #1 - Introduction to React JS](#lesson1)
+-   [Lesson #1 - Introduction to React JS](https://github.com/andentx/notes-introduction-to-react-by-edufect-institute/blob/main/Lesson01.md)
 
--   [Lesson #2 - React Components and JSX](#lesson2)
+-   [Lesson #2 - React Components and JSX](https://github.com/andentx/notes-introduction-to-react-by-edufect-institute/blob/main/Lesson02.md)
 
 <br>
