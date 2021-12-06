@@ -1,6 +1,6 @@
 # Notes - Introduction to React by Edufect Institute
 
-These my notes on the fundamentals of React. They are part of the [Introduction to React by Edufect Institute](https://www.youtube.com/playlist?list=PLC8jf7P7lrixhadKw5_hc0jjaPPMroUyC) lessons.
+These are my notes on the fundamentals of React. They follow along with the [Introduction to React by Edufect Institute](https://www.youtube.com/playlist?list=PLC8jf7P7lrixhadKw5_hc0jjaPPMroUyC) lessons.
 
 <br>
 
