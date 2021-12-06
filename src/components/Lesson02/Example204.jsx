@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class NumberInformation extends Component {
+class Example204 extends Component {
     state = {
         x: 11,
         y: 22,
@@ -30,4 +30,4 @@ class NumberInformation extends Component {
     }
 }
 
-export default NumberInformation;
+export default Example204;

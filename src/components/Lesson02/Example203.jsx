@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class ListOfStrings extends Component {
+class Example203 extends Component {
     state = {
         string1: "React",
         string2: "JavaScript",
@@ -19,13 +19,8 @@ class ListOfStrings extends Component {
     };
 
     render() {
-        return (
-            <>
-                {this.showStrings()}
-            </>
-        );
+        return <>{this.showStrings()}</>;
     }
 }
 
-export default ListOfStrings;
-
+export default Example203;

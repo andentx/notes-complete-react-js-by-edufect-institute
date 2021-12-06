@@ -1,8 +1,10 @@
 import React from "react";
-import Example201 from "./Example201";
-import Example202 from "./Example202";
-import Example203 from "./Example203";
-import Example204 from "./Example204";
+
+import Example201 from "./Lesson02/Example201";
+import Example202 from "./Lesson02/Example202";
+import Example203 from "./Lesson02/Example203";
+import Example204 from "./Lesson02/Example204";
+
 import ExampleContainer from "./ExampleContainer";
 
 import { exampleList } from "./ExampleList.module.css";
