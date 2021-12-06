@@ -6,17 +6,17 @@
 
 ## Table of Contents
 
--   [Definitions](#definitions)
+-   **[Definitions](#definitions)**
     -   [Components](#components)
     -   [React State](#reactstate)
     -   [JSX](#jsx)
     -   [React.Fragment](#reactfragment)
     -   [JSX Expressions](jsxexpressions)
--   [Creating a Class Component](#creatingclasscomponent)
+-   **[Creating a Class Component](#creatingclasscomponent)**
     -   [Create a Component](#createacomponent)
     -   [Complete Component Example](#completecomponentexample)
     -   [Add Component to page](#addcomponenttopage)
--   [Practice Examples](#practiceexamples)
+-   **[Practice Examples](#practiceexamples)**
     -   [Example 201](#example201)
     -   [Example 202](#example202)
     -   [Example 203](#example203)
