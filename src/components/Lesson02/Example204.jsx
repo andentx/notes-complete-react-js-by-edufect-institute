@@ -16,7 +16,7 @@ class Example204 extends Component {
     render() {
         let { x, y } = this.state;
         return (
-            <React.Fragment>
+            <>
                 <p>
                     X is {x} Prime is {"" + this.isPrime(x)}
                 </p>
@@ -25,7 +25,7 @@ class Example204 extends Component {
                 </p>
                 <p>Sum is {x + y}</p>
                 <p>Greater is {x > y ? x : y} </p>
-            </React.Fragment>
+            </>
         );
     }
 }

@@ -14,7 +14,7 @@
     -   [JSX Expressions](jsxexpressions)
 -   **[Creating a Class Component](#creatingclasscomponent)**
     -   [Create a Component](#createacomponent)
-    -   [Complete Component Example](#completecomponentexample)
+    -   [Complete Component example](#completecomponentexample)
     -   [Add Component to page](#addcomponenttopage)
 -   **[Practice Examples](#practiceexamples)**
     -   [Example 201](#example201)
@@ -243,16 +243,20 @@
                 render() {
                     let { x, y } = this.state;
                     return (
-                        <React.Fragment>
+                        <>
                             <p>
                                 X is {x} Prime is {"" + this.isPrime(x)}
                             </p>
                             <p>
                                 Y is {y} Prime is {"" + this.isPrime(y)}
                             </p>
-                            <p>Sum is {x + y}</p>
-                            <p>Greater is {x > y ? x : y} </p>
-                        </React.Fragment>
+                            <p>
+                                Sum is {x + y}
+                            </p>
+                            <p>
+                                Greater is {x > y ? x : y}
+                            </p>
+                        </>
                     );
                 }
             }
