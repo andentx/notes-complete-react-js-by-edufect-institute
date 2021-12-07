@@ -4,6 +4,7 @@ import Example201 from "./Lesson02/Example201";
 import Example202 from "./Lesson02/Example202";
 import Example203 from "./Lesson02/Example203";
 import Example204 from "./Lesson02/Example204";
+import Example205 from "./Lesson02/Example205";
 
 import ExampleContainer from "./ExampleContainer";
 
@@ -50,6 +51,16 @@ export default function ExampleList() {
                 }
             >
                 <Example204 />
+            </ExampleContainer>
+
+            <ExampleContainer
+                exampleID={"205"}
+                exampleTitle={"2.05 - Sorted List"}
+                exampleLink={
+                    "https://github.com/andentx/notes-introduction-to-react-by-edufect-institute/blob/main/Lesson02.md#example205"
+                }
+            >
+                <Example205 />
             </ExampleContainer>
         </div>
     );

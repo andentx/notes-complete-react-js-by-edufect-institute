@@ -21,6 +21,7 @@
     -   [Example 202](#example202)
     -   [Example 203](#example203)
     -   [Example 204](#example204)
+    -   [Example 205](#example205)
 
 <br>
 
@@ -54,6 +55,7 @@
 
     -   A place holder container or parent element
     -   Contains multiple elements without adding extra nodes to the DOM
+    -   Shorthand notation is `<>` to start and `</>` to end
 
     <br>
 
@@ -264,5 +266,41 @@
             export default Example204;
 
         [view example](https://andentx.github.io/notes-introduction-to-react-by-edufect-institute#204)
+
+<br>
+
+-   ### <a name="example205"></a> Example 2.05
+
+    -   Component that renders list of numbers
+    -   Numbers contained in state
+    -   A copy of the `numbersList` array is made to prevent changes to the original
+    -   The numbers in `numberListCopy` are sorted by order and copied into a list with array methods `sort()` and `map()`
+
+            // Example205.jsx
+
+            import React, { Component } from "react";
+
+            class Example205 extends Component {
+                state = {
+                    numbersList: [10, 7, 18, 12, 25],
+                };
+
+                render() {
+                    let { numbersList } = this.state;
+                    let numberListCopy = [...numbersList];
+                    numberListCopy.sort((n1, n2) => n1 - n2);
+                    return (
+                        <ul>
+                            {numberListCopy.map((n1) => (
+                                <li>{n1}</li>
+                            ))}
+                        </ul>
+                    );
+                }
+            }
+
+            export default Example205;
+
+        [view example](https://andentx.github.io/notes-introduction-to-react-by-edufect-institute#205)
 
 <br>
