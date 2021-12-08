@@ -22,6 +22,7 @@
     -   [Example 203](#example203)
     -   [Example 204](#example204)
     -   [Example 205](#example205)
+    -   [Example 206](#example206)
 
 <br>
 
@@ -304,3 +305,161 @@
         [view example](https://andentx.github.io/notes-introduction-to-react-by-edufect-institute#205)
 
 <br>
+
+-   ### <a name="example206"></a> Example 2.06
+
+    ### Part A - Render table
+
+    -   Component that renders table of student scores
+    -   Students and scores contained in state
+    -   Bootstrap classes are used to create a table
+    -   Student names and scores are copied from the state, destructured, and inserted into the table with JSX expressions
+
+        <a name="example206a"></a>
+
+            // Example206a.jsx
+
+            import React, { Component } from "react";
+
+            class Example206a extends Component {
+                state = {
+                    students: [
+                        { name: "William", mathScore: 34, englishScore: 36 },
+                        { name: "George", mathScore: 24, englishScore: 31 },
+                        { name: "Katherine", mathScore: 36, englishScore: 41 },
+                        { name: "Sophia", mathScore: 45, englishScore: 37 },
+                        { name: "Timothy", mathScore: 22, englishScore: 19 },
+                    ],
+                };
+
+                render() {
+                    let { students } = this.state;
+
+                    return (
+                        <div className='container'>
+                            <div className='row border bg-dark text-white'>
+                                <div className='col-6 border'>Name</div>
+                                <div className='col-3 border'>Math</div>
+                                <div className='col-3 border'>English</div>
+                            </div>
+
+                            {students.map((student) => {
+                                let { name, mathScore, englishScore } = student;
+
+                                return (
+                                    <div className={"row border"}>
+                                        <div className='col-6 border'>{name}</div>
+                                        <div className='col-3 border'>{mathScore}</div>
+                                        <div className='col-3 border'>{englishScore}</div>
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    );
+                }
+            }
+
+            export default Example206a;
+
+        [view example](https://andentx.github.io/notes-introduction-to-react-by-edufect-institute#206a)
+
+    <br>
+
+    ### Part B - Add conditional styles
+
+    -   The `getRowColor` function takes in `mathScore` and `englishScore`, adds the scores, and checks if the total is over `60`. If the score is over `60`, it returns `green`, otherwise returns `red`
+    -   The `rowColor` variable is assigned to the return value of the `getRowColor` function
+    -   The `rowColor` value is added as a `background-color` CSS attribute when new rows are created
+
+            // Example206b.jsx
+
+            getRowColor = (mathScore, englishScore) =>
+                mathScore + englishScore >= 60 ? "green" : "red";
+
+
+            let rowColor = this.getRowColor(mathScore, englishScore);
+
+
+            style={{ backgroundColor: rowColor }}
+
+        [view example](https://andentx.github.io/notes-introduction-to-react-by-edufect-institute#206b)
+
+    <br>
+
+    ### Part C - Filter scores
+
+    -   The `.filter` method creates an array of the students with a combined score total above `50` and assigns it to a variables `filteredStudents`
+
+    -   The `map` method creates a table from the `filteredStudents` array
+
+            // Example206c.jsx
+
+            let filteredStudents = students.filter(
+                (student) => student.mathScore + student.englishScore >= 50
+            );
+
+        [view example](https://andentx.github.io/notes-introduction-to-react-by-edufect-institute#206c)
+
+    <br>
+
+    ### Complete Example
+
+    -   A component that renders a table of students and their scores
+    -   Rows are green if score is above 60
+    -   Scores below 50 are filtered out
+
+            // Example206.jsx
+
+            import React, { Component } from "react";
+
+            class Example206c extends Component {
+                state = {
+                    students: [
+                        { name: "William", mathScore: 34, englishScore: 36 },
+                        { name: "George", mathScore: 24, englishScore: 31 },
+                        { name: "Katherine", mathScore: 36, englishScore: 41 },
+                        { name: "Sophia", mathScore: 45, englishScore: 37 },
+                        { name: "Timothy", mathScore: 22, englishScore: 19 },
+                    ],
+                };
+
+                getRowColor = (mathScore, englishScore) =>
+                    mathScore + englishScore >= 60 ? "green" : "red";
+
+                render() {
+                    let { students } = this.state;
+                    let filteredStudents = students.filter(
+                        (student) => student.mathScore + student.englishScore >= 50
+                    );
+                    return (
+                        <div className='container'>
+                            <div className='row border bg-dark text-white'>
+                                <div className='col-6 border'>Name</div>
+                                <div className='col-3 border'>Math</div>
+                                <div className='col-3 border'>English</div>
+                            </div>
+
+                            {filteredStudents.map((student) => {
+                                let { name, mathScore, englishScore } = student;
+                                let rowColor = this.getRowColor(mathScore, englishScore);
+                                return (
+                                    <div
+                                        className={"row border"}
+                                        style={{ backgroundColor: rowColor }}
+                                    >
+                                        <div className='col-6 border'>{name}</div>
+                                        <div className='col-3 border'>{mathScore}</div>
+                                        <div className='col-3 border'>{englishScore}</div>
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    );
+                }
+            }
+
+            export default Example206;
+
+        [view example](https://andentx.github.io/notes-introduction-to-react-by-edufect-institute#206c)
+
+    <br>

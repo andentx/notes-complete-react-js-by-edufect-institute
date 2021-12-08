@@ -5,6 +5,9 @@ import Example202 from "./Lesson02/Example202";
 import Example203 from "./Lesson02/Example203";
 import Example204 from "./Lesson02/Example204";
 import Example205 from "./Lesson02/Example205";
+import Example206a from "./Lesson02/Example206a";
+import Example206b from "./Lesson02/Example206b";
+import Example206c from "./Lesson02/Example206c";
 
 import ExampleContainer from "./ExampleContainer";
 
@@ -61,6 +64,36 @@ export default function ExampleList() {
                 }
             >
                 <Example205 />
+            </ExampleContainer>
+
+            <ExampleContainer
+                exampleID={"206a"}
+                exampleTitle={"2.06a - Table of Scores"}
+                exampleLink={
+                    "https://github.com/andentx/notes-introduction-to-react-by-edufect-institute/blob/main/Lesson02.md#example206a"
+                }
+            >
+                <Example206a />
+            </ExampleContainer>
+
+            <ExampleContainer
+                exampleID={"206b"}
+                exampleTitle={"2.06b - Table of Scores Styled"}
+                exampleLink={
+                    "https://github.com/andentx/notes-introduction-to-react-by-edufect-institute/blob/main/Lesson02.md#example206b"
+                }
+            >
+                <Example206b />
+            </ExampleContainer>
+
+            <ExampleContainer
+                exampleID={"206c"}
+                exampleTitle={"2.06c - Table of Scores Filtered"}
+                exampleLink={
+                    "https://github.com/andentx/notes-introduction-to-react-by-edufect-institute/blob/main/Lesson02.md#example206c"
+                }
+            >
+                <Example206c />
             </ExampleContainer>
         </div>
     );
