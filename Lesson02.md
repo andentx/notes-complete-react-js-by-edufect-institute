@@ -308,7 +308,7 @@
 
 -   ### <a name="example206"></a> Example 2.06
 
-    ### Part A - Render table
+    ### <a name="example206a"></a> Part A - Render table
 
     -   Component that renders table of student scores
     -   Students and scores contained in state
@@ -363,7 +363,7 @@
 
     <br>
 
-    ### Part B - Add conditional styles
+    ### <a name="example206b"></a> Part B - Add conditional styles
 
     -   The `getRowColor` function takes in `mathScore` and `englishScore`, adds the scores, and checks if the total is over `60`. If the score is over `60`, it returns `green`, otherwise returns `red`
     -   The `rowColor` variable is assigned to the return value of the `getRowColor` function
@@ -384,7 +384,7 @@
 
     <br>
 
-    ### Part C - Filter scores
+    ### <a name="example206c "></a>Part C - Filter scores
 
     -   The `.filter` method creates an array of the students with a combined score total above `50` and assigns it to a variables `filteredStudents`
 
@@ -400,7 +400,7 @@
 
     <br>
 
-    ### Complete Example
+    ### <a name="example206c"></a> Complete Example
 
     -   A component that renders a table of students and their scores
     -   Rows are green if score is above 60
