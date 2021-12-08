@@ -315,8 +315,6 @@
     -   Bootstrap classes are used to create a table
     -   Student names and scores are copied from the state, destructured, and inserted into the table with JSX expressions
 
-        <a name="example206a"></a>
-
             // Example206a.jsx
 
             import React, { Component } from "react";
