@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/notes-introduction-to-react-by-edufect-institute/static/css/main.2994e8a8.chunk.css",
-    "main.js": "/notes-introduction-to-react-by-edufect-institute/static/js/main.953569d2.chunk.js",
-    "main.js.map": "/notes-introduction-to-react-by-edufect-institute/static/js/main.953569d2.chunk.js.map",
-    "runtime-main.js": "/notes-introduction-to-react-by-edufect-institute/static/js/runtime-main.c6887d25.js",
-    "runtime-main.js.map": "/notes-introduction-to-react-by-edufect-institute/static/js/runtime-main.c6887d25.js.map",
-    "static/css/2.a75f5a2c.chunk.css": "/notes-introduction-to-react-by-edufect-institute/static/css/2.a75f5a2c.chunk.css",
-    "static/js/2.1c6a19fa.chunk.js": "/notes-introduction-to-react-by-edufect-institute/static/js/2.1c6a19fa.chunk.js",
-    "static/js/2.1c6a19fa.chunk.js.map": "/notes-introduction-to-react-by-edufect-institute/static/js/2.1c6a19fa.chunk.js.map",
-    "index.html": "/notes-introduction-to-react-by-edufect-institute/index.html",
-    "static/css/2.a75f5a2c.chunk.css.map": "/notes-introduction-to-react-by-edufect-institute/static/css/2.a75f5a2c.chunk.css.map",
-    "static/css/main.2994e8a8.chunk.css.map": "/notes-introduction-to-react-by-edufect-institute/static/css/main.2994e8a8.chunk.css.map",
-    "static/js/2.1c6a19fa.chunk.js.LICENSE.txt": "/notes-introduction-to-react-by-edufect-institute/static/js/2.1c6a19fa.chunk.js.LICENSE.txt"
+    "main.css": "/notes-complete-react-js-by-edufect-institute/static/css/main.2994e8a8.chunk.css",
+    "main.js": "/notes-complete-react-js-by-edufect-institute/static/js/main.0f1737eb.chunk.js",
+    "main.js.map": "/notes-complete-react-js-by-edufect-institute/static/js/main.0f1737eb.chunk.js.map",
+    "runtime-main.js": "/notes-complete-react-js-by-edufect-institute/static/js/runtime-main.74615bb8.js",
+    "runtime-main.js.map": "/notes-complete-react-js-by-edufect-institute/static/js/runtime-main.74615bb8.js.map",
+    "static/css/2.a75f5a2c.chunk.css": "/notes-complete-react-js-by-edufect-institute/static/css/2.a75f5a2c.chunk.css",
+    "static/js/2.b8c6dd77.chunk.js": "/notes-complete-react-js-by-edufect-institute/static/js/2.b8c6dd77.chunk.js",
+    "static/js/2.b8c6dd77.chunk.js.map": "/notes-complete-react-js-by-edufect-institute/static/js/2.b8c6dd77.chunk.js.map",
+    "index.html": "/notes-complete-react-js-by-edufect-institute/index.html",
+    "static/css/2.a75f5a2c.chunk.css.map": "/notes-complete-react-js-by-edufect-institute/static/css/2.a75f5a2c.chunk.css.map",
+    "static/css/main.2994e8a8.chunk.css.map": "/notes-complete-react-js-by-edufect-institute/static/css/main.2994e8a8.chunk.css.map",
+    "static/js/2.b8c6dd77.chunk.js.LICENSE.txt": "/notes-complete-react-js-by-edufect-institute/static/js/2.b8c6dd77.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c6887d25.js",
+    "static/js/runtime-main.74615bb8.js",
     "static/css/2.a75f5a2c.chunk.css",
-    "static/js/2.1c6a19fa.chunk.js",
+    "static/js/2.b8c6dd77.chunk.js",
     "static/css/main.2994e8a8.chunk.css",
-    "static/js/main.953569d2.chunk.js"
+    "static/js/main.0f1737eb.chunk.js"
   ]
 }
