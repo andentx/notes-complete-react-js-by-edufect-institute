@@ -141,7 +141,7 @@
 
             export default Example201;
 
-        [view example](http://localhost:3000/notes-introduction-to-react-by-edufect-institute#201)
+        [view example](http://localhost:3000/notes-complete-react-js-by-edufect-institute#201)
 
 <br>
 
@@ -171,7 +171,7 @@
 
             export default Example202;
 
-        [view example](https://andentx.github.io/notes-introduction-to-react-by-edufect-institute#202)
+        [view example](https://andentx.github.io/notes-complete-react-js-by-edufect-institute#202)
 
 <br>
 
@@ -215,7 +215,7 @@
 
             export default Example203;
 
-        [view example](https://andentx.github.io/notes-introduction-to-react-by-edufect-institute#203)
+        [view example](https://andentx.github.io/notes-complete-react-js-by-edufect-institute#203)
 
 <br>
 
@@ -266,7 +266,7 @@
 
             export default Example204;
 
-        [view example](https://andentx.github.io/notes-introduction-to-react-by-edufect-institute#204)
+        [view example](https://andentx.github.io/notes-complete-react-js-by-edufect-institute#204)
 
 <br>
 
@@ -302,7 +302,7 @@
 
             export default Example205;
 
-        [view example](https://andentx.github.io/notes-introduction-to-react-by-edufect-institute#205)
+        [view example](https://andentx.github.io/notes-complete-react-js-by-edufect-institute#205)
 
 <br>
 
@@ -359,7 +359,7 @@
 
             export default Example206a;
 
-        [view example](https://andentx.github.io/notes-introduction-to-react-by-edufect-institute#206a)
+        [view example](https://andentx.github.io/notes-complete-react-js-by-edufect-institute#206a)
 
     <br>
 
@@ -380,7 +380,7 @@
 
             style={{ backgroundColor: rowColor }}
 
-        [view example](https://andentx.github.io/notes-introduction-to-react-by-edufect-institute#206b)
+        [view example](https://andentx.github.io/notes-complete-react-js-by-edufect-institute#206b)
 
     <br>
 
@@ -396,7 +396,7 @@
                 (student) => student.mathScore + student.englishScore >= 50
             );
 
-        [view example](https://andentx.github.io/notes-introduction-to-react-by-edufect-institute#206c)
+        [view example](https://andentx.github.io/notes-complete-react-js-by-edufect-institute#206c)
 
     <br>
 
@@ -458,6 +458,6 @@
 
             export default Example206;
 
-        [view example](https://andentx.github.io/notes-introduction-to-react-by-edufect-institute#206c)
+        [view example](https://andentx.github.io/notes-complete-react-js-by-edufect-institute#206c)
 
     <br>

@@ -20,7 +20,7 @@ export default function ExampleList() {
                 exampleID={"201"}
                 exampleTitle={"2.01 - Hello World"}
                 exampleLink={
-                    "https://github.com/andentx/notes-introduction-to-react-by-edufect-institute/blob/main/Lesson02.md#example201"
+                    "https://github.com/andentx/notes-complete-react-js-by-edufect-institute/blob/main/Lesson02.md#example201"
                 }
             >
                 <Example201 />
@@ -30,7 +30,7 @@ export default function ExampleList() {
                 exampleID={"202"}
                 exampleTitle={"2.02 - React Definition"}
                 exampleLink={
-                    "https://github.com/andentx/notes-introduction-to-react-by-edufect-institute/blob/main/Lesson02.md#example202"
+                    "https://github.com/andentx/notes-complete-react-js-by-edufect-institute/blob/main/Lesson02.md#example202"
                 }
             >
                 <Example202 />
@@ -40,7 +40,7 @@ export default function ExampleList() {
                 exampleID={"203"}
                 exampleTitle={"2.03 - List of Strings"}
                 exampleLink={
-                    "https://github.com/andentx/notes-introduction-to-react-by-edufect-institute/blob/main/Lesson02.md#example203"
+                    "https://github.com/andentx/notes-complete-react-js-by-edufect-institute/blob/main/Lesson02.md#example203"
                 }
             >
                 <Example203 />
@@ -50,7 +50,7 @@ export default function ExampleList() {
                 exampleID={"204"}
                 exampleTitle={"2.04 - Number Information"}
                 exampleLink={
-                    "https://github.com/andentx/notes-introduction-to-react-by-edufect-institute/blob/main/Lesson02.md#example204"
+                    "https://github.com/andentx/notes-complete-react-js-by-edufect-institute/blob/main/Lesson02.md#example204"
                 }
             >
                 <Example204 />
@@ -60,7 +60,7 @@ export default function ExampleList() {
                 exampleID={"205"}
                 exampleTitle={"2.05 - Sorted List"}
                 exampleLink={
-                    "https://github.com/andentx/notes-introduction-to-react-by-edufect-institute/blob/main/Lesson02.md#example205"
+                    "https://github.com/andentx/notes-complete-react-js-by-edufect-institute/blob/main/Lesson02.md#example205"
                 }
             >
                 <Example205 />
@@ -70,7 +70,7 @@ export default function ExampleList() {
                 exampleID={"206a"}
                 exampleTitle={"2.06a - Table of Scores"}
                 exampleLink={
-                    "https://github.com/andentx/notes-introduction-to-react-by-edufect-institute/blob/main/Lesson02.md#example206a"
+                    "https://github.com/andentx/notes-complete-react-js-by-edufect-institute/blob/main/Lesson02.md#example206a"
                 }
             >
                 <Example206a />
@@ -80,7 +80,7 @@ export default function ExampleList() {
                 exampleID={"206b"}
                 exampleTitle={"2.06b - Table of Scores Styled"}
                 exampleLink={
-                    "https://github.com/andentx/notes-introduction-to-react-by-edufect-institute/blob/main/Lesson02.md#example206b"
+                    "https://github.com/andentx/notes-complete-react-js-by-edufect-institute/blob/main/Lesson02.md#example206b"
                 }
             >
                 <Example206b />
@@ -90,7 +90,7 @@ export default function ExampleList() {
                 exampleID={"206c"}
                 exampleTitle={"2.06c - Table of Scores Filtered"}
                 exampleLink={
-                    "https://github.com/andentx/notes-introduction-to-react-by-edufect-institute/blob/main/Lesson02.md#example206c"
+                    "https://github.com/andentx/notes-complete-react-js-by-edufect-institute/blob/main/Lesson02.md#example206c"
                 }
             >
                 <Example206c />
