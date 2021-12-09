@@ -8,6 +8,9 @@ import Example205 from "./Lesson02/Example205";
 import Example206a from "./Lesson02/Example206a";
 import Example206b from "./Lesson02/Example206b";
 import Example206c from "./Lesson02/Example206c";
+import Example207a from "./Lesson02/Example207a";
+import Example207b from "./Lesson02/Example207b";
+import Example207c from "./Lesson02/Example207c";
 
 import ExampleContainer from "./ExampleContainer";
 
@@ -94,6 +97,36 @@ export default function ExampleList() {
                 }
             >
                 <Example206c />
+            </ExampleContainer>
+
+            <ExampleContainer
+                exampleID={"207a"}
+                exampleTitle={"2.07a - Quiz Points"}
+                exampleLink={
+                    "https://github.com/andentx/notes-complete-react-js-by-edufect-institute/blob/main/Lesson02.md#example207a"
+                }
+            >
+                <Example207a />
+            </ExampleContainer>
+
+            <ExampleContainer
+                exampleID={"207b"}
+                exampleTitle={"2.07b - Quiz Statistics"}
+                exampleLink={
+                    "https://github.com/andentx/notes-complete-react-js-by-edufect-institute/blob/main/Lesson02.md#example207b"
+                }
+            >
+                <Example207b />
+            </ExampleContainer>
+
+            <ExampleContainer
+                exampleID={"207c"}
+                exampleTitle={"2.07c - Quiz Statistics Refactored"}
+                exampleLink={
+                    "https://github.com/andentx/notes-complete-react-js-by-edufect-institute/blob/main/Lesson02.md#example207c"
+                }
+            >
+                <Example207c />
             </ExampleContainer>
         </div>
     );

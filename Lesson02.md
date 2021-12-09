@@ -23,6 +23,7 @@
     -   [Example 204](#example204)
     -   [Example 205](#example205)
     -   [Example 206](#example206)
+    -   [Example 207](#example207)
 
 <br>
 
@@ -366,17 +367,15 @@
     ### <a name="example206b"></a> Part B - Add conditional styles
 
     -   The `getRowColor` function takes in `mathScore` and `englishScore`, adds the scores, and checks if the total is over `60`. If the score is over `60`, it returns `green`, otherwise returns `red`
-    -   The `rowColor` variable is assigned to the return value of the `getRowColor` function
-    -   The `rowColor` value is added as a `background-color` CSS attribute when new rows are created
-
-            // Example206b.jsx
 
             getRowColor = (mathScore, englishScore) =>
                 mathScore + englishScore >= 60 ? "green" : "red";
 
+    -   The `rowColor` variable is assigned to the return value of the `getRowColor` function
 
             let rowColor = this.getRowColor(mathScore, englishScore);
 
+    -   The `rowColor` value is added as a `background-color` CSS attribute when new rows are created
 
             style={{ backgroundColor: rowColor }}
 
@@ -388,13 +387,26 @@
 
     -   The `.filter` method creates an array of the students with a combined score total above `50` and assigns it to a variables `filteredStudents`
 
-    -   The `map` method creates a table from the `filteredStudents` array
-
-            // Example206c.jsx
-
             let filteredStudents = students.filter(
                 (student) => student.mathScore + student.englishScore >= 50
             );
+
+    -   The `map` method creates a table from the `filteredStudents` array
+
+                {filteredStudents.map((student) => {
+                    let { name, mathScore, englishScore } = student;
+                    let rowColor = this.getRowColor(mathScore, englishScore);
+                    return (
+                        <div
+                            className={"row border"}
+                            style={{ backgroundColor: rowColor }}
+                        >
+                            <div className='col-6 border'>{name}</div>
+                            <div className='col-3 border'>{mathScore}</div>
+                            <div className='col-3 border'>{englishScore}</div>
+                        </div>
+                    );
+                })}
 
         [view example](https://andentx.github.io/notes-complete-react-js-by-edufect-institute#206c)
 
@@ -459,5 +471,232 @@
             export default Example206;
 
         [view example](https://andentx.github.io/notes-complete-react-js-by-edufect-institute#206c)
+
+    <br>
+
+-   ### <a name="example207"></a> Example 2.07
+
+    ### <a name="example207a"></a> Part A - Render data
+
+    -   Component that renders table of quiz game players and scores
+    -   Each player has a name, answered total, and correct total stored in state
+    -   The point amount for correct and incorrect is stored in state
+    -   Bootstrap classes are used to create a table
+    -   Player names, the answered total, correct total, and score total are inserted into the table with JSX expressions
+
+            // Example207a.jsx
+
+            import React, { Component } from "react";
+
+            class Example207a extends Component {
+                state = {
+                    players: [
+                        { name: "Jack", answered: 10, correct: 8 },
+                        { name: "Steve", answered: 8, correct: 7 },
+                        { name: "William", answered: 12, correct: 9 },
+                        { name: "Kathy", answered: 11, correct: 10 },
+                        { name: "Edward", answered: 9, correct: 6 },
+                        { name: "Mary", answered: 13, correct: 8 },
+                    ],
+                    correctPoints: 2,
+                    incorrectPoints: -1,
+                };
+
+                render() {
+                    const { players, correctPoints, incorrectPoints } = this.state;
+                    return (
+                        <div className='container'>
+                            <div className='row bg-success text-white'>
+                                <div className='col-3 border'>Name</div>
+                                <div className='col-3 border'>Answered</div>
+                                <div className='col-3 border'>Correct</div>
+                                <div className='col-3 border'>Score</div>
+                            </div>
+                            {players.map((player) => {
+                                let { name, answered, correct } = player;
+                                return (
+                                    <div className='row'>
+                                        <div className='col-3 border'>{name}</div>
+                                        <div className='col-3 border'>{answered}</div>
+                                        <div className='col-3 border'>{correct}</div>
+                                        <div className='col-3 border'>
+                                            {correct * correctPoints + (answered - correct) * incorrectPoints}
+                                        </div>
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    );
+                }
+            }
+
+            export default Example207a;
+
+        [view example](https://andentx.github.io/notes-complete-react-js-by-edufect-institute#207a)
+
+    <br>
+
+    ### <a name="example207b"></a> Part B - Show Statistics
+
+    -   A copy of `players` is made and sorted with a function `sortPlayers`
+
+              const playersCopy = [...players];
+              const sortedPlayers = playersCopy.sort(this.sortPlayers);
+
+    -   A function that sorts players by total score
+
+            sortPlayers = (player1, player2) => {
+                const { correctPoints, incorrectPoints } = this.state;
+                let p1 =
+                    player1.correct * correctPoints + (player1.answered - player1.correct) * incorrectPoints;
+                let p2 =
+                    player2.correct * correctPoints + (player2.answered - player2.correct) * incorrectPoints;
+                return p2 - p1;
+            };
+
+    -   A function that returns total number of questions asked
+
+            totalQuestions = () => {
+                const { players } = this.state;
+                return players.reduce((total, current) => total + current.answered, 0);
+            };
+
+    -   A function that returns number total number correct answers
+
+            totalCorrect = () => {
+                const { players } = this.state;
+                return players.reduce((total, current) => total + current.correct, 0);
+            };
+
+    -   Render statistics in table with JSX expressions
+
+            <div className='row bg-light'>
+                <div className='col-6 border'>
+                    <h4>Leaderboard</h4>
+                    1. {sortedPlayers[0].name} <br />
+                    2. {sortedPlayers[1].name} <br />
+                    3. {sortedPlayers[2].name} <br />
+                </div>
+                <div className='col-6 border'>
+                    <h4>Statistics</h4>
+                    Total Questions : {totalQuestionsAsked} <br />
+                    Correct Answers : {totalCorrectAnswers} <br />
+                    Incorrect Answers : {totalQuestionsAsked - totalCorrectAnswers} <br />
+                </div>
+            </div>
+
+        [view example](https://andentx.github.io/notes-complete-react-js-by-edufect-institute#207b)
+
+    <br>
+
+    ### <a name="example207c "></a>Part C - Refactor data
+
+    -   Data is re-organized into a list format
+
+            <div className='row'>
+                {players.map((player) => {
+                    let { name, answered, correct } = player;
+                    return (
+                        <div className='col-4 border bg-warning'>
+                            {name} <br />
+                            Answered: {answered} <br />
+                            Correct: {correct} <br />
+                            Score: {correct * correctPoints + (answered - correct) * incorrectPoints}
+                        </div>
+                    );
+                })}
+            </div>
+
+        [view example](https://andentx.github.io/notes-complete-react-js-by-edufect-institute#207c)
+
+    <br>
+
+    ### <a name="example207c"></a> Complete Example
+
+    -   Component
+
+            // Example207.jsx
+
+            import React, { Component } from "react";
+
+            class Example207 extends Component {
+                state = {
+                    players: [
+                        { name: "Jack", answered: 10, correct: 8 },
+                        { name: "Steve", answered: 8, correct: 7 },
+                        { name: "William", answered: 12, correct: 9 },
+                        { name: "Kathy", answered: 11, correct: 10 },
+                        { name: "Edward", answered: 9, correct: 6 },
+                        { name: "Mary", answered: 13, correct: 8 },
+                    ],
+                    correctPoints: 2,
+                    incorrectPoints: -1,
+                };
+
+                sortPlayers = (player1, player2) => {
+                    const { correctPoints, incorrectPoints } = this.state;
+                    let p1 =
+                        player1.correct * correctPoints +
+                        (player1.answered - player1.correct) * incorrectPoints;
+                    let p2 =
+                        player2.correct * correctPoints +
+                        (player2.answered - player2.correct) * incorrectPoints;
+                    return p2 - p1;
+                };
+
+                totalQuestions = () => {
+                    const { players } = this.state;
+                    return players.reduce((total, current) => total + current.answered, 0);
+                };
+
+                totalCorrect = () => {
+                    const { players } = this.state;
+                    return players.reduce((total, current) => total + current.correct, 0);
+                };
+
+                render() {
+                    const { players, correctPoints, incorrectPoints } = this.state;
+                    const playersCopy = [...players];
+                    const sortedPlayers = playersCopy.sort(this.sortPlayers);
+                    let totalQuestionsAsked = this.totalQuestions();
+                    let totalCorrectAnswers = this.totalCorrect();
+                    return (
+                        <div className='container'>
+                            <div className='row'>
+                                {players.map((player) => {
+                                    let { name, answered, correct } = player;
+                                    return (
+                                        <div className='col-4 border bg-warning'>
+                                            {name} <br />
+                                            Answered: {answered} <br />
+                                            Correct: {correct} <br />
+                                            Score:
+                                            {correct * correctPoints + (answered - correct) * incorrectPoints}
+                                        </div>
+                                    );
+                                })}
+                            </div>
+                            <div className='row bg-light'>
+                                <div className='col-6 border'>
+                                    <h4>Leaderboard</h4>
+                                    1. {sortedPlayers[0].name} <br />
+                                    2. {sortedPlayers[1].name} <br />
+                                    3. {sortedPlayers[2].name} <br />
+                                </div>
+                                <div className='col-6 border'>
+                                    <h4>Statistics</h4>
+                                    Total Questions : {totalQuestionsAsked} <br />
+                                    Correct Answers : {totalCorrectAnswers} <br />
+                                    Incorrect Answers : {totalQuestionsAsked - totalCorrectAnswers} <br />
+                                </div>
+                            </div>
+                        </div>
+                    );
+                }
+            }
+
+            export default Example207;
+
+        [view example](https://andentx.github.io/notes-complete-react-js-by-edufect-institute#207c)
 
     <br>
