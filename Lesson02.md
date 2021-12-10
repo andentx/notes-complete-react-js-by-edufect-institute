@@ -11,7 +11,7 @@
     -   [React State](#reactstate)
     -   [JSX](#jsx)
     -   [React.Fragment](#reactfragment)
-    -   [JSX Expressions](jsxexpressions)
+    -   [JSX Expressions](#jsxexpressions)
 -   **[Creating a Class Component](#creatingclasscomponent)**
     -   [Create a Component](#createacomponent)
     -   [Complete Component example](#completecomponentexample)
@@ -142,7 +142,7 @@
 
             export default Example201;
 
-        [view example](http://localhost:3000/notes-complete-react-js-by-edufect-institute#201)
+        [view example](https://andentx.github.io/notes-complete-react-js-by-edufect-institute#201)
 
 <br>
 
