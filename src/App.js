@@ -1,11 +1,11 @@
 import './App.css';
-import ExampleList from './components/ExampleList';
+import Lesson02ExampleList from './components/Lesson02ExampleList';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="pageTitle">Practice Examples</h1>
-      <ExampleList />
+    <div className='App'>
+      <h1 className='pageTitle'>Practice Examples</h1>
+      <Lesson02ExampleList />
     </div>
   );
 }
