@@ -10,4 +10,6 @@ These are my notes on the fundamentals of React. They follow along with the [Com
 
 -   [Lesson #2 - React Components and JSX](https://github.com/andentx/notes-complete-react-js-by-edufect-institute/blob/main/Lesson02.md)
 
+-   [Lesson #3 - Event Handling and setState](https://github.com/andentx/notes-complete-react-js-by-edufect-institute/blob/main/Lesson03.md)
+
 <br>
