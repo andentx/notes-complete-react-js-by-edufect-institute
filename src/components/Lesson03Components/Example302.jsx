@@ -50,10 +50,10 @@ class Example302 extends Component {
                     Contact Info
                 </button>
                 {showContactDetails ? (
-                    <React.Fragment>
+                    <>
                         Email: {contacts[contactIndex].email} <br />
                         Phone: {contacts[contactIndex].phone} <br />
-                    </React.Fragment>
+                    </>
                 ) : (
                     ''
                 )}
@@ -61,7 +61,7 @@ class Example302 extends Component {
         );
     };
 
-    showContactDetails = (contact) => {
+    showContactDetails = () => {
         let stateCopy = { ...this.state };
         stateCopy.showContactDetails = true;
         this.setState(stateCopy);
