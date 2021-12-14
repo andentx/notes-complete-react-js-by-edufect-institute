@@ -2,6 +2,7 @@ import React from 'react';
 
 import Example301 from './Lesson03Components/Example301';
 import Example302 from './Lesson03Components/Example302';
+import Example303 from './Lesson03Components/Example303';
 
 import ExampleContainer from './ExampleContainer';
 
@@ -28,6 +29,16 @@ export default function ExampleList() {
                 }
             >
                 <Example302 />
+            </ExampleContainer>
+
+            <ExampleContainer
+                exampleID={'303'}
+                exampleTitle={'3.03 - Two Lists'}
+                exampleLink={
+                    'https://github.com/andentx/notes-complete-react-js-by-edufect-institute/blob/main/Lesson03.md#example303'
+                }
+            >
+                <Example303 />
             </ExampleContainer>
         </div>
     );
