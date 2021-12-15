@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/notes-complete-react-js-by-edufect-institute/static/css/main.9e3e575a.chunk.css",
-    "main.js": "/notes-complete-react-js-by-edufect-institute/static/js/main.509b12f7.chunk.js",
-    "main.js.map": "/notes-complete-react-js-by-edufect-institute/static/js/main.509b12f7.chunk.js.map",
+    "main.js": "/notes-complete-react-js-by-edufect-institute/static/js/main.df59d7d1.chunk.js",
+    "main.js.map": "/notes-complete-react-js-by-edufect-institute/static/js/main.df59d7d1.chunk.js.map",
     "runtime-main.js": "/notes-complete-react-js-by-edufect-institute/static/js/runtime-main.74615bb8.js",
     "runtime-main.js.map": "/notes-complete-react-js-by-edufect-institute/static/js/runtime-main.74615bb8.js.map",
     "static/css/2.a75f5a2c.chunk.css": "/notes-complete-react-js-by-edufect-institute/static/css/2.a75f5a2c.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.a75f5a2c.chunk.css",
     "static/js/2.b6d859ed.chunk.js",
     "static/css/main.9e3e575a.chunk.css",
-    "static/js/main.509b12f7.chunk.js"
+    "static/js/main.df59d7d1.chunk.js"
   ]
 }
