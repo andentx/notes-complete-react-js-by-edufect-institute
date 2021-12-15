@@ -3,6 +3,7 @@ import React from 'react';
 import Example301 from './Lesson03Components/Example301';
 import Example302 from './Lesson03Components/Example302';
 import Example303 from './Lesson03Components/Example303';
+import Example304 from './Lesson03Components/Example304';
 
 import ExampleContainer from './ExampleContainer';
 
@@ -39,6 +40,16 @@ export default function ExampleList() {
                 }
             >
                 <Example303 />
+            </ExampleContainer>
+
+            <ExampleContainer
+                exampleID={'304'}
+                exampleTitle={'3.04 - Vending Info'}
+                exampleLink={
+                    'https://github.com/andentx/notes-complete-react-js-by-edufect-institute/blob/main/Lesson03.md#example304'
+                }
+            >
+                <Example304 />
             </ExampleContainer>
         </div>
     );
